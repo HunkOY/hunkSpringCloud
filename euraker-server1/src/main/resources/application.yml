@@ -1,0 +1,13 @@
+#端口
+server:
+  port: 8762
+
+#注册中心配置
+eureka:
+  client:
+#    register-with-eureka: false
+#    fetch-registry: false
+    defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: eureka-server
